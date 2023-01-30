@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSS.Api", "RSS\RSS.Api.csproj", "{5E7F4305-7A17-4292-82DC-FA470FD0CE6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSS.Core", "RSS.Core\RSS.Core.csproj", "{9A0474B5-5C38-43E2-9CDD-4D6A07EE8590}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSS.Entities", "RSS.Models\RSS.Entities.csproj", "{5BF2ADFC-037A-4D4C-8E4C-E2A933296946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E7F4305-7A17-4292-82DC-FA470FD0CE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7F4305-7A17-4292-82DC-FA470FD0CE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7F4305-7A17-4292-82DC-FA470FD0CE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7F4305-7A17-4292-82DC-FA470FD0CE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0474B5-5C38-43E2-9CDD-4D6A07EE8590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0474B5-5C38-43E2-9CDD-4D6A07EE8590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0474B5-5C38-43E2-9CDD-4D6A07EE8590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0474B5-5C38-43E2-9CDD-4D6A07EE8590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF2ADFC-037A-4D4C-8E4C-E2A933296946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF2ADFC-037A-4D4C-8E4C-E2A933296946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF2ADFC-037A-4D4C-8E4C-E2A933296946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF2ADFC-037A-4D4C-8E4C-E2A933296946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E4E6DDE-6C94-4BD4-A83C-1B996A35BB43}
+	EndGlobalSection
+EndGlobal
